@@ -1,0 +1,5 @@
+.box:after{content:""}
+box의 biv, child 요소
+
+.box:before{content:""}
+box의 biv

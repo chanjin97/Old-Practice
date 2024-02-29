@@ -1,0 +1,3 @@
+transform:translate(X,Y)
+              translate(50px50px)
+ 	scale()

@@ -1,0 +1,7 @@
+java
+int num = 10;
+string name = "han";
+
+javascript -> typescript
+let num = 10;
+let name = "han";
