@@ -1,0 +1,86 @@
+@charset "utd-8";
+
+*{margin: 0;padding: 0;}
+
+html,body{height: 100%;}
+
+a{text-decoration: none; color: black;}
+.headWrap{
+    background-color: skyblue;
+    top: 0;
+    width: 100%;
+    position: fixed;
+
+}
+.headWrap > .header{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+.headWrap > .header > h1 > img{
+    height: 35px;
+    display: block;
+
+}
+.headWrap > .header > .menu{
+    display: flex;
+}
+.headWrap > .header > .menu > a{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.visual{
+    min-width: 1280px;margin-bottom: 100px;
+}
+.visual > img{
+    width: 100%;
+    display: block;
+}
+.content{
+    margin: 0 auto;
+    width: 1280px;
+    margin-bottom: 50px;
+}
+.content > h2{
+    font-size: 44px;
+
+}
+.content > p{
+    width: 50%;
+    margin-left: auto;
+}
+.content > h2:after{
+    content: "";
+    display: block;
+    width: 100px;height: 5px;
+    margin-top: 20px;
+    background-color: orange;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1280px;
+}
+.section > .cardWrap{
+    width: 384px;
+}
+.section > .cardWrap > img{
+    width: 100%;
+    display: block;
+}
+.section > .cardWrap > .textWrap{
+    background-color: #eee;
+    padding: 10px 16px;
+}
+.section > .cardWrap > .textWrap > h3{
+    margin-bottom: 8px;
+}
